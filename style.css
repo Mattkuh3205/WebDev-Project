@@ -1,0 +1,262 @@
+html{
+   
+    padding: 10px;
+    height:750px;
+    margin: 5px;
+    height:15px;
+    content:15px;
+    
+
+}
+body{
+    background-color:rgb(255, 255, 255); /*this would be if I want to do background color*/
+   background-image: url("images/BackgroundGif.gif");
+    background-size:1000px;
+  
+    
+}
+
+
+header{
+
+    font-size: 20px;
+    text-align:center;
+    border-style:solid;
+    background-color: rgb(165, 232, 142);
+    font-family: "calibri";
+    
+    height:215px;
+   
+   
+  
+    .AboutSection{
+        position: relative;
+        font-size:20px;
+       /* border-style:solid;
+        border-color:black;*/
+        top:15px;
+        left:100px;
+    }
+    
+
+    
+
+
+    /*note the above section controls the shape of the header box*/
+ 
+    
+    p{
+        font-size:15px;
+        border-style:solid;
+        text-align:left;
+        height:20px;
+
+        border-left-style:none;
+        border-right-style:none;
+        border-bottom-style:none;
+        
+    }
+    
+    h1{
+        margin-inline-start: 600px;
+        margin-inline-end: 600px;
+
+        margin-top:10px;
+        
+        border-style:solid;
+        border-color:black;
+        border-width:2px;
+        background-color: rgb(229, 235, 169);
+        border-radius: 150px;
+        text-align:center;
+        
+    }
+
+
+   /*image on left, image on right, box around*/ 
+/* Identity: <div>, <a>, <span>, <img>*/
+    
+    .button1{
+       position:relative;
+       text-align:left;
+       top:-70px;
+       left:1375px;
+
+    }
+        /*these are dependent on each other*/
+    .searchLink{
+        position:relative;
+        text-align:right;
+        top: -125px;
+        right:15px;
+    }
+
+  
+img{
+     position:absolute;
+     top: 25px;
+     left: 30px;
+
+  }
+
+.HobbyImage1{
+     position:relative;
+     top: -125px;
+     left: 570px;
+  }
+    
+    .textBox{
+        
+        position:relative;
+        bottom:130px;
+        right:400px;
+        font-size:14px;
+        left:15px;
+        border-style:dashed;
+        margin-inline: 500px;
+        
+    }
+    
+    .Information{
+        position:relative;
+        bottom:90px;
+        left:120px;
+    }
+
+     .SideBar{
+        position:relative;
+        bottom:90px;
+        left:350px;
+    }
+    .Title{
+        text-align:left;
+
+    }
+
+}      
+
+
+
+
+main{
+    text-align:center;
+    font-size: 25px;
+    border-style:solid;
+    /*border-style:none; potentially add this in for style*/
+    /*margin-inline-end: 200px;
+    margin-inline-start: 200px;
+    ;*/
+    background-color:rgb(212, 216, 177);
+    
+    height:450px;
+
+    a{
+        font-size:20px;
+        border:solid;
+        border-left-style:none;
+        border-right-style:none;
+        border-bottom-style:none;
+    }
+
+  .LeftSideText{
+    position:relative;
+    border:none;
+    right:565px;
+    bottom:150px;
+  }
+   h2{
+    border-style:solid;
+    border-image: url(Dewey.jpg);
+    margin-inline:550px;
+    bottom:150px;
+   }
+   
+   
+   main h3{
+   
+    border-style:solid;
+   
+    border-bottom-style:none;
+    border-left-style:none;
+    line-height:285px;
+
+    padding-left: 10px;
+
+    text-align:center;
+    bottom:100px;
+   }
+
+   .CenterText{
+    position:relative;
+    border:none;
+    left:565px;
+    bottom:230px;
+    
+   }
+   .RightSideTest{
+     position:relative;
+    border:none;
+    bottom:230px;
+   }
+   
+}
+
+/*-----------------------------------------------------*/
+
+.HobbyImage2{
+        position:absolute;
+        left: 100px;
+        top:350px;
+        border-style:solid;
+
+    }
+.HobbyImage3{
+        position:absolute;
+        right: 100px;
+        top:350px;
+        border-style:solid;
+    }
+.HobbyImage4{
+         position:absolute;
+       
+       
+        border-style:none;
+        right:620px;
+}
+/*-----------------------------------------------------*/
+
+footer{
+    border-style: solid;
+    font-size: 25px;
+    height:100px;
+    background-color:antiquewhite;
+   
+    text-align:center;
+
+    .HobbyImage4{
+        position:relative;
+        right:630px;
+        bottom:105px;
+    }
+    .Dewey{
+        position:relative;
+        left:630px;
+        bottom:105px;
+        border-style:none;
+    }
+   
+}
+
+
+
+
+
+
+
+/* GOAL:   CSS: add styles. Try to match the structure, look and feel as defined on your sketch;
+figure out how to add boxes, images, space everything out, get p̶r̶oper box model figured out
+
+
+add general border/distinguishing line 
+get box around title+text of header content +link boxes 
+*/
